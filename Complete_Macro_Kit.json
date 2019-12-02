@@ -47,7 +47,7 @@
         },
         {
             "attributes": {
-                "action": "!token-mod --set light_radius|0 light_dimradius|0 light_otherplayers|off ",
+                "action": "!token-mod --set light_radius|0 light_dimradius|0 light_otherplayers|off light_hassight|on",
                 "istokenaction": true,
                 "name": "👓Basic",
                 "visibleto": "all"
@@ -55,7 +55,7 @@
         },
         {
             "attributes": {
-                "action": "!token-mod --set light_radius|60 light_dimradius|0 light_otherplayers|off ",
+                "action": "!token-mod --set light_radius|60 light_dimradius|0 light_otherplayers|off light_hassight|on",
                 "istokenaction": true,
                 "name": "👓60Dark",
                 "visibleto": ""
@@ -63,7 +63,7 @@
         },
         {
             "attributes": {
-                "action": "!token-mod --set light_radius|120 light_dimradius|0 light_otherplayers|off ",
+                "action": "!token-mod --set light_radius|120 light_dimradius|0 light_otherplayers|off light_hassight|on",
                 "istokenaction": true,
                 "name": "👓120Dark",
                 "visibleto": ""
@@ -79,7 +79,7 @@
         },
         {
             "attributes": {
-                "action": "!token-mod --set light_radius|120 light_dimradius|120 light_otherplayers|off ",
+                "action": "!token-mod --set light_radius|120 light_dimradius|120 light_otherplayers|off light_hassight|on",
                 "istokenaction": true,
                 "name": "👓120Devil",
                 "visibleto": ""
@@ -95,7 +95,7 @@
         },
         {
             "attributes": {
-                "action": "!token-mod --set light_radius|500 light_dimradius|500 light_otherplayers|off ",
+                "action": "!token-mod --set light_radius|500 light_dimradius|500 light_otherplayers|off light_hassight|on",
                 "istokenaction": true,
                 "name": "👓Total",
                 "visibleto": ""
