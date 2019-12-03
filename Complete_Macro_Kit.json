@@ -109,6 +109,7 @@
                 "visibleto": ""
             },
             "macrobar": {
+                "color": "#ff00ff",
                 "name": null
             }
         },
@@ -120,7 +121,7 @@
                 "visibleto": ""
             },
             "macrobar": {
-                "color": "#ff00ff",
+                "color": null,
                 "name": null
             }
         },
