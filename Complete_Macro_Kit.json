@@ -5,39 +5,39 @@
             "attributes": {
                 "action": "!beyond --import ?{JSON|}",
                 "istokenaction": false,
-                "name": "⚡IMPORT",
+                "name": "....⚡..BEYONDIMPORTER",
                 "visibleto": "all"
             }
         },
         {
             "attributes": {
-                "action": "!token-mod --set tint_color|980000",
+                "action": "!token-mod {{\n--set\n  tint_color|!980000\n}}",
                 "istokenaction": false,
-                "name": "🎨Bloody",
+                "name": ".🏷️🩸",
                 "visibleto": ""
             },
             "macrobar": {
-                "color": "#980000",
+                "color": "#ea9999",
                 "name": null
             }
         },
         {
             "attributes": {
-                "action": "!token-mod --set tint_color|transparent statusmarkers|-dead|-skull",
+                "action": "!token-mod {{\n--set \n tint_color|\n statusmarkers|=dead|-dead\n}}",
                 "istokenaction": false,
-                "name": "🎨Clear",
+                "name": ".🏷️🆑",
                 "visibleto": ""
             },
             "macrobar": {
-                "color": "#4a86e8",
+                "color": "#c0c0c0",
                 "name": null
             }
         },
         {
             "attributes": {
-                "action": "!token-mod --set statusmarkers|dead|skull tint_color|980000",
+                "action": "!token-mod {{\n--set\n  statusmarkers|!dead|!skull\n  tint_color|!980000\n}}",
                 "istokenaction": false,
-                "name": "🎨Dead",
+                "name": ".🏷️💀",
                 "visibleto": ""
             },
             "macrobar": {
@@ -47,69 +47,25 @@
         },
         {
             "attributes": {
-                "action": "!token-mod --set light_radius|0 light_dimradius|0 light_otherplayers|off light_hassight|on",
-                "istokenaction": true,
-                "name": "👓Basic",
-                "visibleto": "all"
-            }
-        },
-        {
-            "attributes": {
-                "action": "!token-mod --set light_radius|60 light_dimradius|0 light_otherplayers|off light_hassight|on",
-                "istokenaction": true,
-                "name": "👓60Dark",
-                "visibleto": ""
-            }
-        },
-        {
-            "attributes": {
-                "action": "!token-mod --set light_radius|120 light_dimradius|0 light_otherplayers|off light_hassight|on",
-                "istokenaction": true,
-                "name": "👓120Dark",
-                "visibleto": ""
-            }
-        },
-        {
-            "attributes": {
-                "action": "!token-mod --on showname showplayers_name  showplayers_bar1 light_hassight --set bar1_link|hp bar2_link|ac light_radius|0 light_dimradius|0",
-                "istokenaction": false,
-                "name": "⚡Initialize",
-                "visibleto": "all"
-            }
-        },
-        {
-            "attributes": {
-                "action": "!token-mod --set light_radius|120 light_dimradius|120 light_otherplayers|off light_hassight|on",
-                "istokenaction": true,
-                "name": "👓120Devil",
-                "visibleto": ""
-            }
-        },
-        {
-            "attributes": {
-                "action": "!token-mod --set defaulttoken",
-                "istokenaction": false,
-                "name": "⚡DefaultToken",
-                "visibleto": "all"
-            }
-        },
-        {
-            "attributes": {
                 "action": "!token-mod --set light_radius|500 light_dimradius|500 light_otherplayers|off light_hassight|on",
-                "istokenaction": true,
-                "name": "👓Total",
-                "visibleto": ""
-            }
-        },
-        {
-            "attributes": {
-                "action": "!token-mod --set tint_color|ff00ff",
                 "istokenaction": false,
-                "name": "🎨FairyFire",
+                "name": "..👓☀️",
                 "visibleto": ""
             },
             "macrobar": {
-                "color": "#ff00ff",
+                "color": "#ffffff",
+                "name": null
+            }
+        },
+        {
+            "attributes": {
+                "action": "!token-mod --set tint_color|!ff00ff",
+                "istokenaction": false,
+                "name": ".🏷️✨",
+                "visibleto": ""
+            },
+            "macrobar": {
+                "color": "#b4a7d6",
                 "name": null
             }
         },
@@ -117,151 +73,119 @@
             "attributes": {
                 "action": "!token-mod ?{Status|Concentrating, --set statusmarkers#!stopwatch|Readying, --set statusmarkers#!stopwatch|-, |Blinded, --set statusmarkers#!bleeding-eye --flip light_hassight|Charmed, --set statusmarkers#!broken-heart|Deafened, --set statusmarkers#!edge-crack|Frightened, --set statusmarkers#!screaming|Grappled, --set statusmarkers#!grab|Invisibility, --set statusmarkers#!ninja-mask|Incapacitated, --set statusmarkers#!interdiction|Paralyzed, --set statusmarkers#!pummeled|Petrified, --set statusmarkers#!frozen-orb|Poisoned, --set statusmarkers#!chemical-bolt|Prone, --set statusmarkers#!back-pain|Restrained, --set statusmarkers#!fishing-net|Stunned, --set statusmarkers#!fist|Unconscious, --set statusmarkers#!sleepy|-, |Blessed, --set statusmarkers#!angel-outfit|Raging, --set statusmarkers#!overdrive|Marked, --set statusmarkers#!archery-target|-, |Faerie Fire, --set tint_color#!ff00ff|Dead, --set statusmarkers#!dead#!skull tint_color#!980000|-, |Clear All, --set statusmarkers#-bleeding-eye#-broken-heart#-edge-crack#-screaming#-grab#-pummeled#-aura#-chemical-bolt#-back-pain#-fishing-net#-fist#-frozen-orb#-interdiction#-sleepy#-ninja-mask#-angel-outfit#-overdrive#-blue#-stopwatch#-archery-target#-dead#-skull tint_color#!transparent}",
                 "istokenaction": false,
-                "name": "🎨Conditions",
+                "name": ".🏷️🎨",
                 "visibleto": ""
             },
             "macrobar": {
-                "color": null,
+                "color": "#f6b26b",
                 "name": null
             }
         },
         {
             "attributes": {
-                "action": "&{template:traits} {{name=?{Caption|}}} {{source=}} {{description=[g](?{URL(Must end in \".gif\" or \".jpg\")|})}}",
+                "action": "[p](?{Paste URL here|})",
                 "istokenaction": false,
-                "name": "🎦Chat-Image",
+                "name": "📷",
+                "visibleto": "all"
+            },
+            "macrobar": {
+                "color": "transparent",
+                "name": null
+            }
+        },
+        {
+            "attributes": {
+                "action": "!token-mod --set bar1_value|+?{Healing|}",
+                "istokenaction": false,
+                "name": ".💖",
+                "visibleto": "all"
+            },
+            "macrobar": {
+                "color": "#00ff00",
+                "name": null
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:npcatk} {{attack=}} {{name=**Macro Information Sheet**}} {{rname=rname}} {{rnamec=rnamec}} {{r1=r1}} {{always=}} {{r2=r2}} {{description=⚡= PC token/sheet initial utilities.\n💖= Increase selected token HP.\n🖤= Decrease selected token HP.\n👓= Apply vision to selected token.\n 👓☀️= Token sees map as though it's daylight.\n 👓🌙= Token is blinded (good for npcs)\n💡= Apply lighting to selected token.\n🏷️= Tag token (\"Dead\" also applies death markers).\n 🏷️🆑= Clear Tags.\n 🏷️🎨= Tag Condition(s).\n 🏷️🩸 = Tag Bloodied.\n 🏷️💀= Tag Dead.\n 🏷️✨= Tag Faerie Fire.\n📷= Paste url for a .jpg .gif .png etc.\n}}",
+                "istokenaction": false,
+                "name": ".....READ-ME.....",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "!token-mod --set light_radius|?{Light Radius|40} light_dimradius|[[?{Light Radius}/2]] light_otherplayers|on",
+                "istokenaction": false,
+                "name": "..💡",
                 "visibleto": ""
             },
             "macrobar": {
-                "color": null,
+                "color": "#ffffff",
                 "name": null
+            }
+        },
+        {
+            "attributes": {
+                "action": "!token-mod --set light_radius| light_dimradius| light_otherplayers|off light_hassight|off",
+                "istokenaction": false,
+                "name": "..👓🌙",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "/w gm &{template:spell} {{level=DM Level Transmutation}} {{name=Token Vision}} {{castingtime=Instant}} {{range=}} {{target=All Selected Tokens}} {{v=}} {{s=1}} {{m=1}} {{material=NoL's Sweat and Tears}} {{duration=Until Recast}} {{description=[0ft Darkvision](!token-mod --set light_radius|0 light_dimradius|0 light_otherplayers|off light_hassight|on) [Off](!token-mod --set light_radius| light_dimradius| light_otherplayers|off light_hassight|off) [Daytime](!token-mod --set light_radius|500 light_dimradius|500 light_otherplayers|off light_hassight|on)\n[60ft Darkvision](!token-mod --set light_radius|60 light_dimradius|0 light_otherplayers|off light_hassight|on)[120ft Darkvision](!token-mod --set light_radius|120 light_dimradius|0 light_otherplayers|off light_hassight|on)\n[Devil's Sight](!token-mod --set light_radius|120 light_dimradius|120 light_otherplayers|off light_hassight|on)\n}} {{athigherlevels=they'll handle this task themselves.}} {{ritual=1}} {{concentration=}} {{charname=}}",
+                "istokenaction": false,
+                "name": "..👓",
+                "visibleto": ""
+            },
+            "macrobar": {
+                "color": "#ffffff",
+                "name": null
+            }
+        },
+        {
+            "attributes": {
+                "action": "!token-mod {{\n--on\n  showname\n  showplayers_name\n  showplayers_bar1\n  light_hassight\n--set\n  bar1_link|hp\n  bar2_link|ac\n  light_radius|60\n  light_dimradius|0\n  light_otherplayers|off\n  defaulttoken\n}}",
+                "istokenaction": false,
+                "name": "....⚡.60ft-Darkvision",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "!token-mod {{\n--on\n  showname\n  showplayers_name\n  showplayers_bar1\n  light_hassight\n--set\n  bar1_link|hp\n  bar2_link|ac\n  light_radius|120\n  light_dimradius|0\n  light_otherplayers|off\n  defaulttoken\n}}",
+                "istokenaction": false,
+                "name": "....⚡120ft-Darkvision",
+                "visibleto": ""
+            }
+        },
+        {
+            "attributes": {
+                "action": "!token-mod {{\n--on\n  showname\n  showplayers_name\n  showplayers_bar1\n  light_hassight\n--set\n  bar1_link|hp\n  bar2_link|ac\n  light_radius|0\n  light_dimradius|0\n  light_otherplayers|off\n  defaulttoken\n}}",
+                "istokenaction": false,
+                "name": "....⚡.0ft-Darkvision",
+                "visibleto": ""
             }
         },
         {
             "attributes": {
                 "action": "!token-mod --set bar1_value|-?{Damage|}",
                 "istokenaction": false,
-                "name": "🖤Damage",
-                "visibleto": ""
-            },
-            "macrobar": {
-                "color": "#980000",
-                "name": null
-            }
-        },
-        {
-            "attributes": {
-                "action": "🚧= Macro under construction.\n🖤= Health Utility\n⚡= PC token/sheet initial utilities.\n🎦= Paste url for a .jpg .gif .png etc.\n💎= Party vault utilities.\n👓= Apply vision to selected token.\n💡= Apply lighting to selected token.\n🎨= Tint token (\"Dead\" also applies death markers).\n🩹= Potion macro button.\n✉= Private Message",
-                "istokenaction": false,
-                "name": "00-READ-ME-00",
-                "visibleto": ""
-            }
-        },
-        {
-            "attributes": {
-                "action": "/w @{target|token_name} ?{What would you like to say?|}",
-                "istokenaction": false,
-                "name": "✉Target",
+                "name": ".🖤",
                 "visibleto": "all"
             },
             "macrobar": {
-                "color": null,
+                "color": "#ff0000",
                 "name": null
             }
         },
         {
             "attributes": {
-                "action": "/w GM ?{What would you like to say?|}",
+                "action": "!token-mod {{\n--on\n  showname\n  showplayers_name\n  showplayers_bar1\n  light_hassight\n--set\n  bar1_link|hp\n  bar2_link|ac\n  light_radius|120\n  light_dimradius|120\n  light_otherplayers|off\n  defaulttoken\n}}",
                 "istokenaction": false,
-                "name": "✉GM",
-                "visibleto": "all"
-            },
-            "macrobar": {
-                "color": null,
-                "name": null
-            }
-        },
-        {
-            "attributes": {
-                "action": "!setattr --fb-public --fb-from Vault --fb-header Depositing: --fb-content _TCUR0_ gold added to the vault. --name Vault --mod --gp|?{Deposit:|0}",
-                "istokenaction": false,
-                "name": "💎Deposit",
-                "visibleto": ""
-            },
-            "macrobar": {
-                "color": null,
-                "name": null
-            }
-        },
-        {
-            "attributes": {
-                "action": "!setattr --fb-public --fb-from Vault --fb-header Withdrawal: --fb-content @{selected|character_name} has withdrawn _TCUR0_ gold from the Vault. --name Vault --mod --@{selected|character_name}gp|?{Deposit:|0} --gp|-?{Deposit:}!!! ",
-                "istokenaction": false,
-                "name": "🚧💎Withdraw🚧",
-                "visibleto": ""
-            }
-        },
-        {
-            "attributes": {
-                "action": "!setattr --fb-public --nocreate --fb-from Vault --fb-header @{selected|character_name} Found Loot! --fb-content @{target|1|bar1} gold added to the vault. --name Vault --mod --gp|@{target|1|bar1}!!!\n!token-mod --ids @{target|1|token_id} --set bar1_value|0",
-                "istokenaction": true,
-                "name": "💎",
-                "visibleto": "all"
-            }
-        },
-        {
-            "attributes": {
-                "action": "/talktomyself",
-                "istokenaction": false,
-                "name": "✉Self",
-                "visibleto": ""
-            },
-            "macrobar": {
-                "color": null,
-                "name": null
-            }
-        },
-        {
-            "attributes": {
-                "action": "!setattr --name Vault --mod --gp|0 --fb-public --fb-header Vault Balance --fb-content There is **_CUR0_ gp** in the party vault.",
-                "istokenaction": false,
-                "name": "💎Balance",
-                "visibleto": "all"
-            },
-            "macrobar": {
-                "color": null,
-                "name": null
-            }
-        },
-        {
-            "attributes": {
-                "action": "!token-mod --set light_radius|?{Light Radius|} light_dimradius|[[?{Light Radius}/2]] light_otherplayers|on",
-                "istokenaction": true,
-                "name": "💡",
-                "visibleto": ""
-            }
-        },
-        {
-            "attributes": {
-                "action": "!token-mod --set bar1_value|+[[2d6]]",
-                "istokenaction": false,
-                "name": "🚧modify🚧",
-                "visibleto": ""
-            }
-        },
-        {
-            "attributes": {
-                "action": "!token-mod --set light_radius| light_dimradius| light_otherplayers|off light_hassight|off",
-                "istokenaction": true,
-                "name": "👓Off",
-                "visibleto": ""
-            }
-        },
-        {
-            "attributes": {
-                "action": "!modbattr --sel --fb-public --fb-from Vault --fb-header Potion of Healing --fb-content _TCUR0_ health recovered. --hp|?{Choose a Potion|Basic,[[2d4+2]]|Greater,[[4d4+4]]|Superior,[[8d4+8]]|Supreme,[[10d4+20]]}",
-                "istokenaction": true,
-                "name": "💖Potion",
+                "name": "....⚡Devil'sSight",
                 "visibleto": ""
             }
         }
