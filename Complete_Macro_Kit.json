@@ -107,7 +107,7 @@
         },
         {
             "attributes": {
-                "action": "/w gm &{template:npcatk} {{attack=}} {{name=**Macro Information Sheet**}} {{rname=rname}} {{rnamec=rnamec}} {{r1=r1}} {{always=}} {{r2=r2}} {{description=⚡= PC token/sheet initial utilities.\n💖= Increase selected token HP.\n🖤= Decrease selected token HP.\n👓= Apply vision to selected token.\n 👓☀️= Token sees map as though it's daylight.\n 👓🌙= Token is blinded (good for npcs)\n💡= Apply lighting to selected token.\n🏷️= Tag token (\"Dead\" also applies death markers).\n 🏷️🆑= Clear Tags.\n 🏷️🎨= Tag Condition(s).\n 🏷️🩸 = Tag Bloodied.\n 🏷️💀= Tag Dead.\n 🏷️✨= Tag Faerie Fire.\n📷= Paste url for a .jpg .gif .png etc.\n}}",
+                "action": "/w gm &{template:npcatk} {{name=**Macro Information Sheet**}} {{description=\n⚡= PC token/sheet initial utilities.\n💖= Increase selected token HP.\n🖤= Decrease selected token HP.\n👓= Apply vision to selected token.\n 👓☀️= Token sees map as though it's daylight.\n 👓🌙= Token is blinded (good for npcs)\n💡= Apply lighting to selected token.\n🏷️= Tag token (\"Dead\" also applies death markers).\n 🏷️🆑= Clear Tags.\n 🏷️🎨= Tag Condition(s).\n 🏷️🩸 = Tag Bloodied.\n 🏷️💀= Tag Dead.\n 🏷️✨= Tag Faerie Fire.\n📷= Paste url for a .jpg .gif .png etc.\n}}",
                 "istokenaction": false,
                 "name": ".....READ-ME.....",
                 "visibleto": ""

@@ -4,29 +4,32 @@ Macro Cheat Sheet:
 
 ⚡= PC token/sheet initial utilities.
 
-💖= Increase selected token HP.
+💖= Increase selected token(s) HP.
 
-🖤= Decrease selected token HP.
+🖤= Decrease selected token(s) HP.
 
-👓= Token vision.
+👓= Generates a spellcard in the chat window with a list of command buttons. 
+    Each button is a macro applying vision to selected tokens.
 
-👓☀️= Token sees map as though it's daylight.
+👓☀️= Token's vision applied as though the environment is bathed in daylight.
 
-👓🌙= Token is blinded (good for npcs)
+👓🌙= Token(s) is/are blinded. Most often used on NPC tokens. 
+    Can help to reduce lag in game by having fewer tokens producing dynamic lighting.
 
-💡= Apply lighting to selected token.
+💡= Apply lighting to selected token. Enter maximum (dim light) radius when queried. 
+    Bright lighting will automatically be added at 1/2 dim light radius. Lighting will be visible to all tokens the "have sight."
 
-🏷️= Token tags.
+🏷️= Token tags:
 
-🏷️🆑= Clear Tags.
+🏷️🆑= Clear token(s) Tags.
 
-🏷️🎨= Tag Condition(s).
+🏷️🎨= Tag token(s) with Condition(s).
 
-🏷️🩸 = Tag Bloodied.
+🏷️🩸 = Tag token(s) as Bloodied.
 
-🏷️💀= Tag Dead.
+🏷️💀= Tag token(s) as Dead.
 
-🏷️✨= Tag Faerie Fire.
+🏷️✨= Tag token(s) with Faerie Fire.
 
 📷= Paste url for a .jpg .gif .png etc.
 
